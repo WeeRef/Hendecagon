@@ -6,6 +6,8 @@ showSlides(slideIndex);
     showSlides(slideIndex = n);
   }
   
+  let wrv=document.getElementById("w-r");
+
   function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("sl");
@@ -25,5 +27,8 @@ showSlides(slideIndex);
   setTimeout(showSlides, 45000);
   if (slideIndex<3){slideIndex++}
   else{slideIndex=1}
-
   }
+  window.addEventListener("scroll",()=>{
+    let value=window.scrollY;
+    wrv.style.left=value*0.045+'vw'; 
+});
