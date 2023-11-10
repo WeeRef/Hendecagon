@@ -8,9 +8,7 @@
 nav{
     font-size: 1vw;
 }
-nav:hover{
-  cursor: pointer;
-}
+
 .navc{
     display: flex;
     flex-direction: row;
@@ -69,8 +67,9 @@ cursor: pointer;
 }
 
 .e{
-    float: right;
-    margin-left: -0.8vw; 
+  float: right;
+  margin-left: -2vw; 
+ 
    
 }
 .me {
