@@ -34,27 +34,40 @@ nav:hover{
     font-family:Cloud Soft;
 }
 
-.sea{
-display: flex;
-flex-wrap: nowrap;
-border: solid black  2px;
-height: 50px;
-width: 140px;
-border-radius: 30px;
-justify-content: flex-start;
-align-items: center;
-margin-top: -0.55%;
-margin-left: -0.5%;
-font-family:Cloud Soft Bold;
-font-size: 70%;
+.search-bar{
+  border: solid black  2px;
+  height: 50px;
+  width: 12vw;
+  border-radius: 30px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -8.8%;
+  margin-left: -1.8vw;
+  font-family:Cloud Soft Bold;
+  display: flex;
+  align-items: center;
+ padding: 0.5vw;
 }
-.sea a {
-     margin: 10px;
-     text-decoration: none;
-     color: black;
 
-    
+.search-bar input{
+  max-width: 8.5vw;
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 0px 0.5vw;
+  font-size: 1vw;
+
 }
+
+.search-bar button{
+border: 0;
+border-radius: 30%;
+padding: 0.1vw;
+background:transparent ;
+cursor: pointer;
+}
+
 .e{
     float: right;
     margin-left: -0.8vw; 
