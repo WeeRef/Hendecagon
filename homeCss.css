@@ -608,6 +608,9 @@ animation-timing-function: ease-in-out;}
 }
 
 
+body{  overflow-x: hidden;}
+
+
 
 .Dr{ 
   display: flex;
