@@ -111,6 +111,7 @@ cursor: pointer;
    
 }
 .sl{
+  margin-top: -2.5%;
     display: none;
     max-width: 80vw;
     max-height: 98vh;
@@ -125,7 +126,7 @@ cursor: pointer;
     box-shadow: 0px 0px 30px -7px rgba(0, 0, 0, 0.30);
     flex-wrap: nowrap;
     width: 80vw;
-    height: 105vh;
+    height: 110vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
