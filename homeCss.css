@@ -94,6 +94,7 @@ cursor: pointer;
 .su1{width: 799px;
   height: 708px;
     float: left;
+    margin-top: 15vh;
     padding-left:1vw ;
     margin-left: -10vw;
    
@@ -573,7 +574,7 @@ animation-timing-function: ease-in-out;}
 
 @keyframes example {
   0%  { left: 0px; top:0px;}
-  50% { left:0px;top: 120px; }
+  50% { left:0px;top: 100px; }
   100%{ left: 0px; top:0px;}
   
 }
