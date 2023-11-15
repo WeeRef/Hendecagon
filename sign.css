@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family:Cloud Soft;
     font-size: 100%;
-    
+  
 }
 nav{
     font-size: 1vw;
@@ -33,6 +33,9 @@ nav{
     text-decoration: none; 
     font-family:Cloud Soft;
 }
+
+
+body{  overflow-x: hidden;}
 
 .search-bar{
   border: solid black  2px;
